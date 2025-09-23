@@ -1,0 +1,13 @@
+def difference_from_17(n):
+    #takes a number n which will use to compare to 17
+    if n<=17:
+        #this is when the number is less than 17
+        return 17-n
+        #subtrract the number from 17 to get the difference
+
+    else:
+        #when the number n is greater than 17
+        return abs(n-17)
+#INPUT THE NUMBER
+n=int(input("Enter a number:"))    
+print("Result:", difference_from_17(n))
